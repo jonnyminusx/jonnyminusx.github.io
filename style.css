@@ -4,8 +4,7 @@
 }
 
 body {
-    background-color: #FFFFFF;
-    background-image: url('images/bg.png');
+    background-color: #FFCD3C;
     font-family: 'Libre Baskerville', serif;
     text-align: justify;
 }
@@ -28,11 +27,12 @@ p {
   max-width: 550px;
   margin: 50px auto 0px auto;
   padding: 20px 30px;
+  border-radius: 20px;
 }
 
 #header {
   font-family: 'Pacifico', cursive;
-  border-bottom: 20px solid #A70F0F;
+  border-bottom: 20px solid #2e86ab;
 }
 
 #header img {
@@ -60,22 +60,26 @@ p {
 }
 
 a {
-    color: #A70F0F;
+    color: #d30c7b;
     word-wrap: break-word;
     text-decoration: none;
 }
 
 a:hover {
-    color: #A70F0F;
+    color: #d30c7b;
     text-decoration: none;
     border-bottom: 1px dotted;
 }
 
 #social a:hover {
-    color: #333333;
+    color: #d30c7b;
     text-decoration: none;
     border-bottom: none;
 
+}
+
+#social a {
+    color: #2e86ab;
 }
 
 @media screen and (max-width: 500px) {
